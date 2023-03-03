@@ -1,8 +1,16 @@
+import { Home } from "./Home";
+import { Login } from "./Login";
+import { Register } from "./Register";
+import "./style.scss";
 
 const App = () => {
-  return (
-    <div></div>
-  );
-}
+    return (
+        <div>
+            <Home />
+            {/* <Register /> */}
+            {/* <Login /> */}
+        </div>
+    );
+};
 
 export default App;
